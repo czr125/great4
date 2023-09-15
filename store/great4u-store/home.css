@@ -1,0 +1,154 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana", sans-serif;
+    position: flex;
+}
+
+/* ---HEADER--- */
+#top{
+    background: rgba(131, 11, 11, 0.815);
+    padding: 17px;
+}
+#title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    color: #fefefe;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* ---HEADER--- */
+
+/* ---NAVIGATION--- */
+#navegacao{
+    background-color: rgba(57, 161, 75, 0.726);
+    color: white;
+    padding: 15px;
+}
+#links{  
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 15px;
+    padding-right: 10px;
+}
+#usericon{
+    width: 45px;
+    height:45px;
+    padding: 5px;
+}
+#links_op{
+    font-size: 15px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+#links_op a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #321f85;
+    text-decoration: underline;
+}
+#sessao-carrinho{
+    margin-left: auto;
+    cursor: pointer;
+    padding-right: 20px;
+}
+#img-cart{
+    width: 45px;
+    height: 45px;
+}
+#sessao-frete{
+    padding-left: 10px;
+    cursor: pointer;
+}
+#img-pin{
+    width: 45px;
+    height: 45px;
+}
+#calcular{
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* ---NAVIGATION--- */
+
+/* ---BODY--- */
+body{
+    margin: auto;
+    display: center;
+    padding: 5px;
+    text-align: center;
+    background-color: #252525;
+    color: white;
+}
+h1{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+#tabela{
+   width:auto;
+   padding: 20px;
+   margin: auto;
+   margin-bottom: 10px;
+   color:black;
+}
+button{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(21, 107, 235);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
+.celulas{
+    border: 1px solid rgb(83, 80, 78);
+    padding: 50px;
+    background-color: #fefefe;
+    display: table;
+    float: left;
+    margin-right: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-img{
+    width: 150px;
+    height: 150px;
+}
+.prd-title{
+    margin-top: 15px;
+    font-size: 15px;
+    font: bold;
+}
+.preco{
+    color:red;
+    margin-top: 3px;
+}
+.comprar_btn{
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 2px;
+    cursor: pointer;
+    box-shadow: rgb(32, 31, 31) 5px 5px 10px;
+}
+
+/* ---BODY--- */
+
+footer{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}

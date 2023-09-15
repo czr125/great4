@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frete.css">
+    <link rel="icon" href="assets/icong4u.png">
+    <title> Great4U Frete </title>
+</head>
+    <header id="top">
+        <h1> <a id="title" href="home.html"> Great4U</a></h1>
+    </header>
+    <nav id="navegacao">
+        <div id="links">
+            <div id="sessao-frete">
+                <h4> <img id="img-pin" src="assets/marker.svg"> <a href="frete.html" id="calcular"> Calcular Frete </a></h4>
+            </div>
+            <div id="sessao-carrinho">
+                <a id="carrinho" href="cart.html"> <img id="img-cart" src="assets/shopping-cart.svg"></a> 
+            </div>
+                <img src="assets/user.svg" id="usericon">
+                <h4 id="links_op"> Olá, faça seu <a href="login.html"> Login</a> ou <br> crie seu <a href="signup.html">Cadastro</a> </h4>
+        </div>
+    </nav>
+<body>
+    <br>
+    <h1>CALCULE O FRETE</h1>
+    <div class="content">
+        <section class="funcionalidades">
+        <div class="container">
+            <div class="form-group">
+                <label for="cep"> <strong>CEP</strong></label> 
+                <input type="text" class="section-control" id="cep" maxlength="9" placeholder="00000-000">
+            </div>
+        <br>
+            <div class="form-group">
+                <label for="logradouro"> <strong>Logradouro</strong></label> 
+                <input type="text" class="section-control" id="logradouro" placeholder="Avenida, Rua, Travessa, etc.">
+            </div>
+        <br>
+            <div class="form-group">
+                <label for="uf"> <strong>UF</strong></label> 
+                <input type="text" class="section-control" id="uf" maxlength="2" placeholder="Estado">
+            </div>
+        <br>
+            <div class="form-group">
+                <label for="ddd"> <strong>DDD</strong></label> 
+                <input type="text" class="section-control" id="ddd" maxlength="2" placeholder="**">
+            </div>
+        <br>
+        <br>
+            <div class="form-group">
+                <input type="submit" class="section-control" id="submit" value="Iniciar">
+                <input type="button" class="section-control" id="limpar" value="Limpar">
+                <input type="submit" class="section-control" id="verificar" value="Calcular">
+            </div> 
+        </section> 
+    </div>
+    <footer>
+        <p>&copy; CGR</p>
+    </footer>
+</body>
+<script src="frete.js"></script>
+</html>
